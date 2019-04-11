@@ -1,0 +1,119 @@
+/*Спецификация*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'HelveticaNeue', sans-serif;
+}
+
+h1 h2 h3 h4 {
+	font-weight: 700;
+	color: #fff;
+}
+
+p, div, a, span {
+	line-height: 1,3em;
+
+}
+
+.container {
+
+	border: 1px red solid;
+}
+
+/*Header состоящий из header1 и header2*/		
+
+.center{
+	width: 930px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.header1 {
+	border: 1px red solid;
+	display: flex;
+	
+}
+
+.header1 ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.header2{
+	border: 1px red solid;
+	display: flex;
+	justify-content: space-around;
+}
+
+/*header {
+	height: 180px;
+	width: 930px;
+	background: #FFF;
+	border: 1px red solid;
+	*/
+
+	.header {
+		height: 180px;
+		width: 930px;
+		background: #FFF;
+		border: 2px blue solid;
+	}
+
+	.header2 ul {
+
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.phone{
+		border: 1px red solid;
+		color: #000;
+	}
+
+	/*Первый экран*/
+
+	.banner {
+
+		background: url(../img/banner.png) no-repeat center;
+		height: 640px;
+	}
+	.program{
+		margin-top: 180px;
+		margin-left: 30 px;
+		width: 70%;
+		line-height: 1,5em
+	}
+
+	.program h1 {
+		font-family: 'HelveticaNeue', sans-serif;
+		font-size: 42px;
+		line-height: 1.2;
+		text-align: center;
+		line-height: 1.2;
+		text-align: center;
+		color: #000;
+
+	}
+
+	.program ul {
+		margin-top: 10%;
+		margin-left:20%; 
+		font-family: 'HelveticaNeue', sans-serif;
+		color: #797979;
+		font-size: 20px;
+		line-height: 1.6;
+		list-style-type: square;
+
+	}
