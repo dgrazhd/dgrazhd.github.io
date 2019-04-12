@@ -110,41 +110,54 @@
 				<div class="work_fotos">
 					<div class="work_foto_left">
 						<img src="img/foto_1.png" alt="">
-						<div class="text">Вас обслуживает закрепленный за Вами терапевт, который знает все о Ваших проблемах и болезнях.</div>
+						<p>Вас обслуживает закрепленный за Вами терапевт, который знает все о Ваших проблемах и болезнях.</p>
 
 					</div>
 
 					<div class="work_foto_right">
 						<img src="img/foto_2.png" alt="">
-						<div class="text">При необходимости Вы можете посетить любого специального врача исходя из Ваших потребностей.</div>
+						<p>При необходимости Вы можете посетить любого специального врача исходя из Ваших потребностей.</p>
 					</div>
 				</div>
-				<div class="button_2">Подробнее</div>
+				<div class="button_1"><a href="#">Подробнее</a></div>
 			</div>
 			<div class="work_right">
-				<h2>Отправить нам свой вопрос</h2>
-				<div class="text">Если вы хотите подробнее узнать о наших услугах или условиях работы, оставьте внизу
-				короткое сообщение и мы оперативно свяжемся с Вами.</div>
+				<h2>Задать нам вопрос</h2>
+				<p>Если Вы хотите подробнее узнать о наших услугах или условиях работы, оставьте внизу
+				короткое сообщение и мы оперативно свяжемся с Вами.</p>
 				<form>
-					<div><label for="name">Имя</label>
+					<div><label for="name">Имя:</label><br>
 						<input type="text" name="name" required>
 					</div>
 				
-					<div><label for="phone">Контактный телефон</label>
-						<input type="text" name="phone" required>
+					<div><label for="phone">Контактный телефон:</label><br>
+						<input type="tel" name="phone"></input>
 					</div>
 				
 					<div>
-						<label for="message">Ваше вообщение</label>
-						<textarea id="message" name="message" rows="5" cols="33" required></textarea>
+						<label for="message">Ваше сообщение:</label>
+						<textarea id="message" name="message" rows="5" cols="24" required></textarea>
 					</div>
-					<button type="submit">Отправить</button>
+					<input class="submit" type="submit" value="Отправить">
 				</form>
 			</div>
 			
 		</section>
-		<section class="team"><h2>Наша команда</h2></section>
-		<footer class="footer"><h2>Footer</h2></footer>
+		<section class="team">
+			<div class="team_top">
+				<h2>Наша команда</h2>
+				<p>Мы объединили лучших специалистов под нашим брэндом для оказания Вам наиболее качественных услуг.
+				Каждый из врачей гордится быть членом нашей команды и соотвествует всем необходимым требованиям для этой ответственной работы.</p>
+			</div>
+			<div class="team_bottom">
+				<div class="team_bottom_left"></div>
+				<div class="team_bottom_middle"></div>
+				<div class="team_bottom_right"></div>
+			</div>
+		</section>
+		<footer class="footer">
+			<p>Данный сайт является учебным примером верстки</p>
+		</footer>
 	</div>
 
 </body>
