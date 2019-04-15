@@ -359,13 +359,98 @@ form input{
 	color: #FFF;
 	text-transform: uppercase;
 }
-/*Пятый раздел - "О команде"*/
-
-.team{
-	grid-area: team;
+/*Пятый раздел - "Почему мы?"*/
+.why_we{
+	grid-area: why_we;
 	background: #FFF;
 	display: flex;
 	flex-direction: column;
+}
+
+.we_top{
+	height: 20%;
+	padding: 10px 150px 0px 150px;
+}
+.we_bottom{
+	height: 80%;
+	display: flex;
+
+}
+
+.we_bottom h3{
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #7f7f7e;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.we_bottom i{
+	
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+	padding: 8px;
+}
+
+.text_1 {
+	padding: 10px 40px;
+}
+
+.circle_3{
+	background: #1a9bdc;
+	border-radius: 50%;
+	height:  50px;
+	width: 50px;
+	margin: 90px 0px 0px 50px;
+	display: inline-block;
+}
+
+.we_bottom_left{
+	
+	width: 35%;
+	height: 100%;
+}
+.we_bottom_middle{
+	width: 30%;
+	height: 100%;
+	background: url(../img/team.png) no-repeat center;
+}
+
+.we_bottom_right{
+	width: 35%;
+	height: 100%
+}
+
+.why_we h2{
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+  	color: #000;
+  	font-weight: bold;
+  	line-height: 1.2;
+  	margin: 20px 0px;
+  	text-align: center;
+}
+.why_we p{
+	font-family: "Open Sans", sans-serif;
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+/*Шестой раздел - "О команде"*/
+
+.team{
+	grid-area: team;
+	background: #b9e7fe;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .team_top{
@@ -375,17 +460,19 @@ form input{
 .team_bottom{
 	height: 80%;
 	display: flex;
-
 }
 
-.team_bottom_left{
-	width: 35%;
-	height: 100%;
+.team_member{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.team_bottom_middle{
-	width: 30%;
-	height: 100%;
-	background: url(../img/team.png) no-repeat center;
+
+.team_member img{
+	width: 150px;
+	height: 151px;
+
 }
 
 .team h2{
@@ -404,6 +491,13 @@ form input{
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 1.5;
+}
+
+.team h3{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 20px 20px;
 }
 
 /*Footer"*/
@@ -433,10 +527,11 @@ form input{
 						 "banner banner banner banner"
 						 "direction_1 direction_2 direction_3 direction_4"
 						 "work work work work"
+						 "why_we why_we why_we why_we"
 						 "team team team team"
 						 "footer footer footer footer";
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 80px 60px 590px 300px 500px 650px 30px;
+	grid-template-rows: 80px 60px 590px 300px 500px 640px 400px 30px;
 	
 }
 
